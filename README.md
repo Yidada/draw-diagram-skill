@@ -1,2 +1,17 @@
 # draw-diagram-skill
-SKILL which help draw mermaid diagram base on your code.
+
+Agent SKILL：为 Mermaid 图提供结构化写作指导，确保语法正确、布局清晰、符合最佳实践。适用于流程图、时序图、类图、状态图、甘特图、ER 图、数据血缘等可视化。
+
+## 作用
+- 生成或优化 Mermaid 文本，避免语法错误与渲染问题。
+- 给出结构、分层、命名和布局的建议，让图在可读性和可维护性上更一致。
+
+## 使用方式
+1) 在对话中说明要绘制的图类型与关键节点/流程，告知使用draw-diagram-skill。
+2) 让 Agent 输出完整的 Mermaid 代码块，按需包含方向、子图、样式等。
+3) 将生成的 `.mmd` 交给你的渲染流程（如 Mermaid CLI、在线渲染或文档内嵌）。
+
+## 何时调用
+- 需要快速起草 Mermaid 图的初版。
+- 调整已有 Mermaid 源以改进可读性、布局或语义。
+- 将业务流程、时序、实体关系等文字描述转换为可视化。
